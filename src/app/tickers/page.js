@@ -1,6 +1,6 @@
-import CardTicker from "../components/CardTicker"
-import Footer from "../components/Footer"
-import Header from "../components/Header"
+import CardTicker from "../../components/CardTicker"
+import Footer from "../../components/Footer"
+import Header from "../../components/Header"
 
 const allStock = [
   {
