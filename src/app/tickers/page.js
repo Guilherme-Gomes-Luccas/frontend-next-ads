@@ -1,6 +1,6 @@
-import CardTicker from "@/components/CardTicker"
-import Footer from "@/components/footer"
-import Header from "@/components/Header"
+import CardTicker from "../components/CardTicker"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 
 const allStock = [
   {
@@ -58,7 +58,7 @@ const allStock = [
 export default function Tickers() {
   return (
     <>
-      <Header isLogged={false}/>
+      <Header isLogged={true}/>
       <main className="p-5">
         <h1 className="text-3xl">Tickers</h1>
       </main>
